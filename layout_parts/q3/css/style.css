@@ -1,5 +1,44 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q3__table {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+
+  
+}
+
+table {
+  width: 100%;
+  
+}
+
+
+.q3__table tr:nth-child(odd) {
+  background-color: #ecf1f2;
+
+}
+
+th {
+  padding: 10px 20px;
+  width: 16.7%;
+  border: solid #dedede 1px;
+  color: white;
+  background-color: #2244aa;
+
+}
+
+td {
+  padding: 10px 20px;
+  width: 16.7%;
+  border: solid #dedede 1px;
+
+}
+
+.q3__table tr:last-child {
+  border-top: dashed #000 2px;
+}
+
 
 /* 回答はここに書いてね */

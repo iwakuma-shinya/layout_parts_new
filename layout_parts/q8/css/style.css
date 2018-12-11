@@ -2,4 +2,352 @@
 
 /* 回答はここに書いてね */
 
+.small {
+  display: inline-block;
+  padding:  5px 15px;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-left: 10px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  height: 26px;
+  vertical-align: middle;
+  box-sizing: border-box;
+
+}
+
+.middle {
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-left: 10px;
+  height: 32px;
+  vertical-align: middle;
+  box-sizing: border-box;
+
+}
+
+.large {
+  display: inline-block;
+  padding: 5px 25px;
+  border-radius: 7px;
+  font-size: 24px;
+  margin-left: 10px;
+  height: 38px;
+  vertical-align: middle;
+  box-sizing: border-box;
+
+}
+
+.common {
+  background-color: #00bcd4;
+  color: #fff;
+  
+}
+
+.error {
+  background-color: #ff4081;
+  color: #fff;
+
+}
+
+.disabled {
+  background-color: #e5e5e5;
+  color: #fff;
+
+}
+
+.shadow {
+  background-color: #fff;
+  color: #222;
+  box-shadow: inset 0 1px 6px rgba(0,0,0,.12);
+  text-shadow: 0 1px 4px rgba(0,0,0,.12);
+
+}
+
+
+
+/* q8-2 */
+
+.q8__form{
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ECF1F2;
+}
+
+
+.q8__form__text {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form__text {
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #ECF1F2;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+.q8__main {
+  float: left;
+  width: 300px;
+}
+
+.q8__main__tab__title {
+  margin-bottom: 20px;
+  
+}
+
+
+.q8__main__tab__title > li:first-child {
+  margin-top: 0;
+}
+
+.q8__li > li:first-child {
+  margin-top: 0;
+}
+
+
+
+.tab__title {
+  float: left;
+  text-align: right;
+  width: 100px;
+  margin-bottom: 20px;
+
+}
+
+.text__box {
+  float: right;
+  width: 180px;
+  margin-bottom: 20px;
+  border-color: #FFF;
+}
+
+
+.name {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+.q8__shusshin__option {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.q8__input--init {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+
+.q8__shusshin:after {
+  display: block;
+  position: absolute;
+  left: 325px;
+  top: 716px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+  transform: rotate(45deg);
+  content: "";
+  pointer-events: none;
+}
+
+.email {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+.call {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+.q8__radio {
+  cursor: pointer;
+}
+
+.q8__radio__input {
+  display: none;
+}
+
+.q8__radio__span {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+
+.text__box__checkbox {
+  float: right;
+  width: 180px;
+}
+
+.q8__box__checkbox {
+  text-align: right;
+}
+
+.checkbox {
+  display: none;
+}
+
+
+.q8__checkbox__text {
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+  margin-top: 20px;
+}
+
+.q8__checkbox__text:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -9px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: '';
+}
+
+.checkbox:checked + .q8__checkbox__text:after {
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    margin-top: -14px;
+    width: 8px;
+    height: 16px;
+    border-right: 3px solid #00BCD4;
+    border-bottom: 3px solid #00BCD4;
+    transform: rotate(45deg);
+    content: '';
+
+}
+
+
+.q8__main__bottom {
+  text-align: right;
+}
+
+.q8__main__bottom__btn {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00BCD4;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+
+.side {
+  float: right;
+  width: 380px;
+  
+}
+
+.textarea {
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.asterisk {
+  color: #E00;
+
+}
+
+.q8__form__text:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.q8__radio__span:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.q8__radio__input:checked + .q8__radio__span:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+
+
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 回答はここに書いてね */
