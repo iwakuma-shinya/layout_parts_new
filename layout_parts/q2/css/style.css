@@ -9,43 +9,28 @@
   background-color: #eff3f4;
 }
 
-.images-top {
+.q2__images{
+  margin-bottom: 10px;
+}
+
+.q2__images.images-left {
   float: left;
   margin-right: 20px;
-  border-bottom: 10px;
-  
-
 }
 
 .q2__content__text {
-  border-left: 20px;
   font-size: 18px;
   line-height: 22px;
-  padding-right: 20px;
   word-break: break-all;
-
 }
 
-.images-bottom {
+.q2__images.images-right {
   float: right;
-  border-bottom: 10px;
   margin-left: 20px;
-
 }
 
-.q2__content__bottom{
-  float: bottom;
-  margin-right: 20px;
-  font-size: 18px;
-  line-height: 22px;
-  word-break: break-all;
 
-}
 
-.clearfix:after {
-  display: block;
-  content: "";
-  clear: both;
-}
+
 
 /* 回答はここに書いてね */

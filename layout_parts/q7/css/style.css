@@ -4,7 +4,6 @@
 .q7__inner {
   margin: 0 auto;
   box-sizing: content-box;
-
 }
 
 .q7__box__left {
@@ -13,8 +12,7 @@
   font-size: 16px;
   background-color: #fff;
   margin:  auto;
-
-
+  padding: 10px;
 }
 
 .q7__box__right {
@@ -24,14 +22,14 @@
   background-color: #fff;
   margin-left: 50px;
   margin:  auto;
-
+  padding: 10px;
 }
 
 
 /* q7-2 */
 
 
-.q7 q7--table .q7__inner {
+.q7 .q7--table .q7__inner {
   display: table;
 }
 
@@ -87,8 +85,7 @@
   font-size: 16px;
   width: 225px;
   vertical-align: middle;
-  box-sizing: border-box;
-  
+  box-sizing: border-box;  
 }
 
 
@@ -110,7 +107,6 @@
   font-size: 16px;
   box-sizing: border-box;
   vertical-align: top;
-
 }
 
 

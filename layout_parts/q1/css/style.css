@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 .q1__content {
-  width: 900px;
+  width: 940px;
   margin: 0 auto;
   padding: 20px;
   background-color: #eff3f4;
@@ -15,7 +15,6 @@
   padding:  20px;
   width: 230px;
   background-color: #3274ae;
-
 }
 
 .q1__content .q1__content__box:first-child {
