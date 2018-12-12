@@ -18,12 +18,12 @@
 .food th {
   padding: 10px;
   border: solid #dedede 1px;
-  color: white;
+  color: #fff;
   background-color: #2244aa;
 }
 
 .food td {
-  padding: 10px 20px;
+  padding: 10px;
   width: 16.7%;
   border: solid #dedede 1px;
 }
